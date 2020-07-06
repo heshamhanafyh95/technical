@@ -12,7 +12,7 @@ return [
     | location for this type of information, allowing packages to have
     | a conventional file to locate the various service credentials.
     |
-    */
+     */
 
     'mailgun' => [
         'domain' => env('MAILGUN_DOMAIN'),
@@ -33,13 +33,12 @@ return [
     'google' => [
         'client_id' => '41063227899-qc8rj2mltnrp73hr9vfd0fhvlas6799h.apps.googleusercontent.com',
         'client_secret' => 'srEIVzIGUI_BNHKW4FZXV4iH',
-        'redirect' => 'http://localhost:8000/callback/google',
+        'redirect' => 'http://shrouded-wildwood-46650.herokuapp.com/callback/google',
     ],
     'facebook' => [
         'client_id' => '1436555329886093',
         'client_secret' => 'bbf901fcb3012f43567b12b6a69d62c4',
-        'redirect' => 'http://localhost:8000/callback/facebook',
+        'redirect' => 'http://shrouded-wildwood-46650.herokuapp.com/callback/facebook',
     ],
-    
 
 ];
