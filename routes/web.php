@@ -29,6 +29,8 @@ Route::put('/users/edit/{user}', 'UserController@update');
 Route::get('/users/show', 'UserController@show');
 Route::get('/users/edit/{user}', 'UserController@edit');
 
+Route::delete('/users/{user}', 'UserController@destroy');
+
 // Route::resource('users', 'UserController');
 
 Route::get('/auth/{provider}', 'Auth\SocialController@redirect');
