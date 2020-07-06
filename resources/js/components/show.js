@@ -53,21 +53,22 @@ class Show extends Component {
                                             </div>
                                         </div>
                                     </div>
+                                    <table className="table table-bordered">
+                                        <thead>
+                                            <tr>
+                                                <th>No</th>
+                                                <th>Name</th>
+                                                <th>Email</th>
 
-                                    <div className="row">
-                                        <div className="col-xs-12 col-sm-12 col-md-12">
-                                            <div className="form-group">
-                                                <strong>Name:</strong>
-                                                {this.state.user.name}
-                                            </div>
-                                        </div>
-                                        <div className="col-xs-12 col-sm-12 col-md-12">
-                                            <div className="form-group">
-                                                <strong>Email:</strong>
-                                                {this.state.user.email}
-                                            </div>
-                                        </div>
-                                    </div>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <td>{this.state.user.id}</td>
+                                            <td>{this.state.user.name}</td>
+                                            <td>{this.state.user.email}</td>
+                                        </tbody>
+                                    </table>
+
                                 </div>
 
                             </div>

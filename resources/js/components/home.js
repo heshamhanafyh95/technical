@@ -68,8 +68,8 @@ class Home extends Component {
                                                     <td>{user.name}</td>
                                                     <td>{user.email}</td>
                                                     <td>
-                                                        <Link className="btn btn-success" to={"/users/show/" + user.id}>Show</Link>
-                                                        <Link className="btn btn-success" to={"/users/edit/" + user.id}>Edit</Link>
+                                                        <Link className="btn btn-primary mr-4" to={"/users/show/" + user.id}>Show</Link>
+                                                        <Link className="btn btn-success mr-4" to={"/users/edit/" + user.id}>Edit</Link>
                                                         <button onClick={this.onSubmitHandler} className="btn btn-danger" value={user.id}>Delete</button>
                                                     </td>
                                                 </tr>
