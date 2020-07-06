@@ -71,21 +71,26 @@ Signin
                             </div>
                         </div>
                         <div class="form-group row" style="margin-top:15px">
-                            <div class="col-md-4">
-                                <a href="{{ url('auth/google') }}" style="padding:10px;" class="btn btn-lg btn-warning">
-                                    <strong>Signin With Google</strong>
+                            <div class="col-md-6">
+                                <a href="{{ url('auth/google') }}" class="btn btn-lg btn-block btn-warning">
+                                    <i style="vertical-align: middle;" class="fa fa-google fa-2x"
+                                        aria-hidden="true"></i>
+                                    <strong>Signin</strong>
                                 </a>
                             </div>
-                            <div class="col-md-4">
-                                <a href="{{ url('auth/facebook') }}" style="padding:10px;" class="btn btn-lg btn-primary">
-                                    <strong>Signin With Facebook</strong>
+                            <div class="col-md-6">
+                                <a href="{{ url('auth/facebook') }}" class="btn btn-lg btn-block btn-primary">
+                                    <i style="vertical-align: middle;" class="mr-3 fa fa-facebook-square fa-2x"
+                                        aria-hidden="true"></i>
+                                    <strong>Signin</strong>
                                 </a>
                             </div>
-                            <div class="col-md-4">
-                                <a href="{{ url('auth/twitter') }}" style="padding:10px;" class="btn btn-lg btn-success">
-                                    <strong>Signin With Twitter</strong>
+                            <!-- <div class="col-md-4">
+                                <a href="{{ url('auth/twitter') }}" style="padding:10px;"
+                                    class="btn btn-lg btn-success">
+                                    <strong>Signup With Twitter</strong>
                                 </a>
-                            </div>
+                            </div> -->
                         </div>
                     </form>
                 </div>
